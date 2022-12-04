@@ -10,7 +10,7 @@ const app = express();
 
 app.get('/', (req, res) => {
     // throw new Error('Something went wrong');
-    res.send('server is running');
+    res.send('server is running successfully');
 })
 
 app.use(notFoundMiddleware);
